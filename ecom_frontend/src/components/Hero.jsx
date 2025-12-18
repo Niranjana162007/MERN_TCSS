@@ -10,7 +10,7 @@ export default function Hero() {
             Transform Your Home
           </h1>
           <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto">
-            Discover premium furniture and decor that brings style and comfort to every corner of your home
+            Discover premium furniture and decor that brings style and comfort to every corner of your home!
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
