@@ -14,6 +14,11 @@ app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 
 connectDB();
 
+// Test route
+app.get('/api/test', (req, res) => {
+  res.json({ message: 'Server is working!' });
+});
+
 app.use("/api/products", productRoutes);
 app.use("/api/auth", authRoutes);
 
